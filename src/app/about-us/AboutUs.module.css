@@ -1,0 +1,50 @@
+.container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .section {
+    margin: 2rem 0;
+  }
+  
+  .heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .subheading {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .teamCard {
+    margin-bottom: 1.5rem;
+    transition: transform 0.2s;
+  }
+  
+  .teamCard:hover {
+    transform: scale(1.05);
+  }
+  
+  .testimonialCard {
+    background-color: #e9ecef;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+  }
+  
+  /* Scoped button styles */
+  .button {
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
